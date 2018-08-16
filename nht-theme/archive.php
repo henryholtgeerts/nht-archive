@@ -1,8 +1,4 @@
-<?php 
-
-// Generic archive page, includes content in a three-by row
-
-get_header(); ?>
+<?php get_header(); ?>
 <div class="nht-main">
 	<div class="nht-container">
 		<div class="nht-heading nht-heading--page-top">

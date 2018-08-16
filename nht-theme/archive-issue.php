@@ -1,8 +1,4 @@
-<?php 
-
-// Issue archive, loads the issues loop from loop-issues.php
-
-get_header(); ?>
+<?php get_header(); ?>
 
 	<div class="nht-main">
 		<div class="nht-container">

@@ -1,8 +1,4 @@
-<?php 
-
-// Story archive template, includes a search section that is limited to only displaying stories
-
-get_header(); ?>
+<?php get_header(); ?>
 <div class="nht-main">
 	<div class="nht-billboard nht-billboard--live-search">
 		<div class="nht-container">

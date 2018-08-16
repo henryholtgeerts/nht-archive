@@ -1,8 +1,4 @@
-<?php 
-
-// 404 Page, still needs to be style/lay out work
-
-get_header(); ?>
+<?php get_header(); ?>
 
 	<main role="main">
 		<!-- section -->
