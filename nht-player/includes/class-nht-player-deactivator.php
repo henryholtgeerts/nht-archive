@@ -6,8 +6,8 @@
  * @link       henryholtgeerts.com
  * @since      1.0.0
  *
- * @package    Nht_Pp
- * @subpackage Nht_Pp/includes
+ * @package    Nht_Player
+ * @subpackage Nht_Player/includes
  */
 
 /**
@@ -16,11 +16,11 @@
  * This class defines all code necessary to run during the plugin's deactivation.
  *
  * @since      1.0.0
- * @package    Nht_Pp
- * @subpackage Nht_Pp/includes
- * @author     Henry Holtgeerts <henryholtgeerts@gmail.com>
+ * @package    Nht_Player
+ * @subpackage Nht_Player/includes
+ * @author     Henry <henryholtgeerts@gmail.com>
  */
-class Nht_Pp_Deactivator {
+class Nht_Player_Deactivator {
 
 	/**
 	 * Short Description. (use period)

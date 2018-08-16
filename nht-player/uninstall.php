@@ -22,7 +22,7 @@
  * @link       henryholtgeerts.com
  * @since      1.0.0
  *
- * @package    Nht_Pp
+ * @package    Nht_Player
  */
 
 // If uninstall not called from WordPress, then exit.

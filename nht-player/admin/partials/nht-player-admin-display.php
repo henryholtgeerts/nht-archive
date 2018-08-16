@@ -8,8 +8,8 @@
  * @link       henryholtgeerts.com
  * @since      1.0.0
  *
- * @package    Nht_Pp
- * @subpackage Nht_Pp/admin/partials
+ * @package    Nht_Player
+ * @subpackage Nht_Player/admin/partials
  */
 ?>
 
