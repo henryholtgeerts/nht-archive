@@ -13,9 +13,9 @@
  * @package           Nht_Plugin
  *
  * @wordpress-plugin
- * Plugin Name:       NHT Plugin
+ * Plugin Name:       Now Here This
  * Plugin URI:        henryholtgeerts.com/nowherethis
- * Description:       Custom functionality to support NHT Archive Theme
+ * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
  * Version:           1.0.0
  * Author:            Henry Holtgeerts
  * Author URI:        henryholtgeerts.com
