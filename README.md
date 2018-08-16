@@ -15,11 +15,8 @@ The NHT Archive Project serves Now Here This by developing custom wordpress. The
 ## Features
 
 ### The Theme (nht-theme)
-* Basic Semantic HTML5 Markup
-* W3C Valid Code Foundations
-* Responsive Ready, ViewPort meta data
-* HTML Class support for IE7, IE8, IE9 Conditionals (HTML5 Boilerplate)
-* Clean, neatly organised code, with PHP annotations
+* Post types (Issues, Stories, Staff)
+* Page templates (Staff page, Collection)
 
 ### The Core Plugin (nht-plugin)
 * Currently only scaffolded
