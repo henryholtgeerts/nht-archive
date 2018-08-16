@@ -6,8 +6,8 @@
  * @link       henryholtgeerts.com
  * @since      1.0.0
  *
- * @package    Nht_Player
- * @subpackage Nht_Player/includes
+ * @package    Nht_Pp
+ * @subpackage Nht_Pp/includes
  */
 
 /**
@@ -16,11 +16,11 @@
  * This class defines all code necessary to run during the plugin's activation.
  *
  * @since      1.0.0
- * @package    Nht_Player
- * @subpackage Nht_Player/includes
- * @author     Henry <henryholtgeerts@gmail.com>
+ * @package    Nht_Pp
+ * @subpackage Nht_Pp/includes
+ * @author     Henry Holtgeerts <henryholtgeerts@gmail.com>
  */
-class Nht_Player_Activator {
+class Nht_Pp_Activator {
 
 	/**
 	 * Short Description. (use period)

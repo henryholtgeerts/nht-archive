@@ -6,8 +6,8 @@
  * @link       henryholtgeerts.com
  * @since      1.0.0
  *
- * @package    Nht_Player
- * @subpackage Nht_Player/admin
+ * @package    Nht_Pp
+ * @subpackage Nht_Pp/admin
  */
 
 /**
@@ -16,11 +16,11 @@
  * Defines the plugin name, version, and two examples hooks for how to
  * enqueue the admin-specific stylesheet and JavaScript.
  *
- * @package    Nht_Player
- * @subpackage Nht_Player/admin
- * @author     Henry <henryholtgeerts@gmail.com>
+ * @package    Nht_Pp
+ * @subpackage Nht_Pp/admin
+ * @author     Henry Holtgeerts <henryholtgeerts@gmail.com>
  */
-class Nht_Player_Admin {
+class Nht_Pp_Admin {
 
 	/**
 	 * The ID of this plugin.
@@ -65,15 +65,15 @@ class Nht_Player_Admin {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in Nht_Player_Loader as all of the hooks are defined
+		 * defined in Nht_Pp_Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The Nht_Player_Loader will then create the relationship
+		 * The Nht_Pp_Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
 
-		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/nht-player-admin.css', array(), $this->version, 'all' );
+		wp_enqueue_style( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'css/nht-pp-admin.css', array(), $this->version, 'all' );
 
 	}
 
@@ -88,15 +88,15 @@ class Nht_Player_Admin {
 		 * This function is provided for demonstration purposes only.
 		 *
 		 * An instance of this class should be passed to the run() function
-		 * defined in Nht_Player_Loader as all of the hooks are defined
+		 * defined in Nht_Pp_Loader as all of the hooks are defined
 		 * in that particular class.
 		 *
-		 * The Nht_Player_Loader will then create the relationship
+		 * The Nht_Pp_Loader will then create the relationship
 		 * between the defined hooks and the functions defined in this
 		 * class.
 		 */
 
-		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/nht-player-admin.js', array( 'jquery' ), $this->version, false );
+		wp_enqueue_script( $this->plugin_name, plugin_dir_url( __FILE__ ) . 'js/nht-pp-admin.js', array( 'jquery' ), $this->version, false );
 
 	}
 
