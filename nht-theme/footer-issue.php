@@ -1,5 +1,4 @@
 </div>
-
 <!-- ajax-content -->
         
         <!-- Running wp_footer func to pull in custom javascript to load in footer -->
