@@ -2,8 +2,8 @@
 
 Wordpress developement to support Now Here This online
 
-* Project: [github.com/henryholtgeerts/nht-archive](https://github.com/toddmotto/html5blank)
-* Website: [staging.nowherethis.org](http://html5blank.com)
+* Project: [github.com/henryholtgeerts/nht-archive](https://github.com/henryholtgeerts/nht-archive)
+* Website: [staging.nowherethis.org](http://staging.nowherethis.org)
 
 ## Contributors
 Henry Holtgeerts, Claire Chen
@@ -22,11 +22,12 @@ The NHT Archive Project serves Now Here This by developing custom wordpress. The
 * Clean, neatly organised code, with PHP annotations
 
 ### The Core Plugin (nht-plugin)
-* Currently only scaffolded
+* Currently just boilerplate
 * Plugin functionality needs to be refactored out of nht-theme directory
 
 ### The Player Plugin (nht-player)
-* Currently only scaffolded
+* !! Causes namespace issues with styles from theme !!
+* Currently just boilerplate
 * Plugin functionality needs to be refactored out of nht-theme directory
 
 ### Future plans
