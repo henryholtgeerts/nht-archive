@@ -25,7 +25,7 @@ if( $post_objects ): ?>
 
 						<!-- post thumbnail -->
 						<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
-							<?php the_post_thumbnail(array(180,180), ['class' => 'nht-card__img', 'title' => 'Feature image']); // Declare pixel size you need inside the array ?>
+							<?php the_post_thumbnail(array(280,500), ['class' => 'nht-card__img', 'title' => 'Feature image']); // Declare pixel size you need inside the array ?>
 						<?php endif; ?>
 						<!-- /post thumbnail -->
 
