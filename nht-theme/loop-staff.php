@@ -16,15 +16,6 @@ if( $post_objects ): ?>
 
 				<div class="nht-card__top">
 
-					<div class="nht-card__overlay">
-						<div class="nht-play-link" nht-player="true" rest-lookup="stories/<?php the_ID(); ?>" is-playing="false">
-							<i class="fas fa-play"></i>
-						</div>
-						<div class="nht-card__runtime">
-							<?php the_field('runtime'); ?>
-						</div>
-					</div>
-
 					<!-- post thumbnail -->
 					<?php if ( has_post_thumbnail()) : // Check if thumbnail exists ?>
 						<a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>">
