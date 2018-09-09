@@ -137,8 +137,6 @@
 
 		async function loadResults(query) {
 			var queryString = '?_embed&per_page=21&search='+query.term;
-			queryString.replace(/ /g,"+");
-			console.log('query term', queryString);
 			if (query.startDate != undefined) {
 				queryString += '&after='+query.startDate;
 			}
@@ -169,7 +167,8 @@
 				});
 			}
 
-			console.log(queryString);
+			queryString.split(' ').join('+');
+			console.log('query string', queryString);
 
 			await loadStoriesSearch(queryString);
 			await loadIssuesSearch(queryString);
