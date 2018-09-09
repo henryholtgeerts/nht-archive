@@ -6,7 +6,7 @@
 					<p>Contact Us: info@nowherethis.org</p>
 				</div>
 				<div class="nht-footer__copyright">
-					<p>&copy; <?php echo date('Y'); ?> - All Rights Reserved</p>
+					<p>&copy; <?php echo date('Y'); ?> - All Rights ReservedTESTINGGG</p>
 				</div>
 			</div>
 		</footer>
