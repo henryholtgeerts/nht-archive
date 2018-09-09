@@ -187,11 +187,13 @@
         function playAudio() {
             $('.nht-player__play-button svg').removeClass('fa-play');
             $('.nht-player__play-button svg').addClass('fa-pause');
+            audio.play();
         }
 
         function pauseAudio() {
             $('.nht-player__play-button svg').addClass('fa-play');
             $('.nht-player__play-button svg').removeClass('fa-pause');
+            audio.pause();
         }
 
         function fmtMSS(s){
