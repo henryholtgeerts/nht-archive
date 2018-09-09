@@ -167,7 +167,7 @@
 				});
 			}
 
-			queryString.split(' ').join('+');
+			queryString = queryString.replace(/ /g,"+");
 			console.log('query string', queryString);
 
 			await loadStoriesSearch(queryString);
