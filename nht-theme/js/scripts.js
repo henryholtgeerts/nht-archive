@@ -136,7 +136,7 @@
 		});
 
 		async function loadResults(query) {
-			console.log(query);
+			console.log('query term', query.term);
 			var queryString = '?_embed&per_page=21&search='+query.term;
 			if (query.startDate != undefined) {
 				queryString += '&after='+query.startDate;
