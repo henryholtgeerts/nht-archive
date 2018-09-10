@@ -43,6 +43,9 @@
 			} else if ($('.nht-issue__frame').length) {
 				var url = $('.nht-issue__frame').attr('issue-url');
 				console.log('issue loaded!!', url);
+				$('.nht-issue__frame').load( url, function() {
+					console.log('issue loaded forreall');
+				  });
 			}
 		});
 		
