@@ -35,6 +35,14 @@
         });
         </script>
 
+		<script>
+			var iframeWindow = document.getElementsByTagName("iframe")[0].contentWindow;
+			iframeWindow.addEventListener("message", receiveMessage, false);
+			function receiveMessage(event) {
+				console.log('post message received!!', event);
+			}
+		</script>
+
     </head>
     
     <body>
