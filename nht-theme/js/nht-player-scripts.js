@@ -2,6 +2,11 @@
 	
 	$(function () {
 
+        if ($('#nht-issue__frame').length) {
+            // var iframeWindow = document.getElementById("nht-issue__frame").contentWindow;
+            window.addEventListener("message", receiveMessage, false);
+        }
+
         'use strict';
 
         var player = $('#nhtPlayer');
@@ -96,18 +101,14 @@
                 }
 
             } else if ($('#nht-issue__frame').length) {
-				// var iframeWindow = document.getElementById("nht-issue__frame").contentWindow;
 				window.addEventListener("message", receiveMessage, false);
-				console.log(window);
 			} else {
                 $('link[id=nht-styles-css]')[0].disabled=true;
             }
         });
 
         async function receiveMessage(event) {
-            console.log('message received!!', event.data);
 			if (event.data.length > 1) {
-                console.log('message received!!', event.data);
                 audio.pause();
                 await loadAudio(event.data);
                 audio.play();
