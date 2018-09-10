@@ -2,9 +2,9 @@
 
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-    <?php $issue_html = get_field('issue_url'); ?>
+    <?php $issue_url = get_field('issue_url'); ?>
 
-    <?php echo $issue_html ?>
+	<iframe src="<?php echo $issue_url ?>"></iframe>
 
 		<?php endwhile; ?>
 
