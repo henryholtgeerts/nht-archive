@@ -41,14 +41,15 @@
 				$('.nht-live-search__input').val(query.term);
 				loadResults(query);		
 			} else if ($('#nht-issue__frame').length) {
-				var iframeWindow = document.getElementById("nht-issue__frame").contentWindow;
-				iframeWindow.addEventListener("message", receiveMessage, false);
-				console.log(iframeWindow);
-				function receiveMessage(event) {
-					console.log('post message received!!', event);
-				}
+				// var iframeWindow = document.getElementById("nht-issue__frame").contentWindow;
+				window.addEventListener("message", receiveMessage, false);
+				console.log(window);
 			}
 		});
+
+		function receiveMessage(event) {
+			console.log('post message received!!', event);
+		}
 		
 		$(document).on('submit', '.nht-live-search__searchbox', function(event) {            
 			event.preventDefault();
