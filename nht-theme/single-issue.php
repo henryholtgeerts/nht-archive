@@ -4,11 +4,7 @@
 
     <?php $issue_url = get_field('issue_url'); ?>
 
-	<?php echo $issue_url ?>
-
-	<iframe src="https://www.youtube.com/embed/A6XUVjK9W4o">
-		<p>Your browser does not support iframes.</p>
-	</iframe>
+	<iframe src="<?php echo $issue_url ?>"></iframe>
 
 		<?php endwhile; ?>
 
