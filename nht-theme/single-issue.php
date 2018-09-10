@@ -4,7 +4,9 @@
 
     <?php $issue_url = get_field('issue_url'); ?>
 
-	<iframe src="<?php echo $issue_url ?>"></iframe>
+	<?php echo $issue_url ?>
+
+	<iframe src="https://google.com"></iframe>
 
 		<?php endwhile; ?>
 
