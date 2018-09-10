@@ -2,9 +2,7 @@
 
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
-	<link rel="stylesheet" id="issue-css" href="<?php the_field('issue_css'); ?>" media="all" />
-
-    <?php $issue_html = get_field('issue_html'); ?>
+    <?php $issue_html = get_field('issue_url'); ?>
 
     <?php echo $issue_html ?>
 
