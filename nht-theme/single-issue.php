@@ -6,7 +6,7 @@
 
 	<?php echo $issue_url ?>
 
-	<iframe src="https://www.w3schools.com">
+	<iframe src="https://www.youtube.com/embed/A6XUVjK9W4o">
 		<p>Your browser does not support iframes.</p>
 	</iframe>
 
