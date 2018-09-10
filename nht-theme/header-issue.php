@@ -35,6 +35,13 @@
         });
         </script>
 
+		<script>
+			// A $( document ).ready() block.
+			$( document ).ready(function() {
+				console.log( "issue ready!" );
+			});
+		</script>
+
     </head>
     
     <body>
