@@ -40,12 +40,13 @@
 				query.term = window.location.href.slice(n+3);
 				$('.nht-live-search__input').val(query.term);
 				loadResults(query);		
-			} else if ($('.nht-issue__frame').length) {
-				var url = $('.nht-issue__frame').attr('issue-url');
-				console.log('issue loaded!!', url);
-				$('.nht-issue__frame').load( url, function() {
-					console.log('issue loaded forreall');
-				  });
+			} else if ($('#nht-issue__frame').length) {
+				var iframeWindow = document.getElementById("nht-issue__frame").contentWindow;
+				iframeWindow.addEventListener("message", receiveMessage, false);
+				console.log(iframeWindow);
+				function receiveMessage(event) {
+					console.log('post message received!!', event);
+				}
 			}
 		});
 		
