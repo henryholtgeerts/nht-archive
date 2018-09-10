@@ -6,7 +6,7 @@
 
 	<?php echo $issue_url ?>
 
-	<iframe src="https://google.com"></iframe>
+	<iframe src="https://stackoverflow.com/questions/7947144/iframes-not-working"></iframe>
 
 		<?php endwhile; ?>
 
