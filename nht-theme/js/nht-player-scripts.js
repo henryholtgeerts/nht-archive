@@ -9,12 +9,6 @@
         var timeDrag = false;
         var searchTerm;
 
-        function receiveMessage(event) {
-			if (event.data.length > 1) {
-				console.log('post message received!!', event.data);
-			}
-		}
-
         $( document ).on( "click", "[nht-player*=true]", async function( event ) {
             audio.pause();
 
@@ -101,10 +95,20 @@
                     $('.nht-live-search__searchbox').submit();
                 }
 
-            } else {
+            } else if ($('#nht-issue__frame').length) {
+				// var iframeWindow = document.getElementById("nht-issue__frame").contentWindow;
+				window.addEventListener("message", receiveMessage, false);
+				console.log(window);
+			} else {
                 $('link[id=nht-styles-css]')[0].disabled=true;
             }
         });
+
+        function receiveMessage(event) {
+			if (event.data.length > 1) {
+				console.log('post message received!!', event.data);
+			}
+		}
 
         $(audio).on('timeupdate', function() {
             $('.nht-player__played').css("width", (this.currentTime / this.duration) * 100 + '%');

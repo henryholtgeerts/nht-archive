@@ -40,10 +40,6 @@
 				query.term = window.location.href.slice(n+3);
 				$('.nht-live-search__input').val(query.term);
 				loadResults(query);		
-			} else if ($('#nht-issue__frame').length) {
-				// var iframeWindow = document.getElementById("nht-issue__frame").contentWindow;
-				window.addEventListener("message", receiveMessage, false);
-				console.log(window);
 			}
 		});
 		
