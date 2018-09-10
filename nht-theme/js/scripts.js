@@ -40,6 +40,8 @@
 				query.term = window.location.href.slice(n+3);
 				$('.nht-live-search__input').val(query.term);
 				loadResults(query);		
+			} else if ($('.nht-issues__frame').length) { {
+				console.log('issue loaded!!');
 			}
 		});
 		
