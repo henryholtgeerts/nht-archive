@@ -104,7 +104,7 @@
             }
         });
 
-        function receiveMessage(event) {
+        async function receiveMessage(event) {
             console.log('message received!!', event.data);
 			if (event.data.length > 1) {
                 console.log('message received!!', event.data);
