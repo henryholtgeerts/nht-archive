@@ -14,6 +14,15 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 
+		<style>
+			#nht-issue__frame {
+				width: 100%;
+				height: 100vh;
+				border: none;
+				overflow-y: scroll;
+			}
+		</style>
+
 		<!-- Running wp_head func to pull in custom styles, javascript -->
 		<?php wp_head(); ?>
 
