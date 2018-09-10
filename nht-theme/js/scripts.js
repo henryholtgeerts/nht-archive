@@ -48,7 +48,7 @@
 		});
 
 		function receiveMessage(event) {
-			console.log('post message received!!', event);
+			console.log('post message received!!', event.data);
 		}
 		
 		$(document).on('submit', '.nht-live-search__searchbox', function(event) {            
