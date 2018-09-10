@@ -11,10 +11,11 @@
         <link href="<?php echo get_template_directory_uri(); ?>/img/icons/touch.png" rel="apple-touch-icon-precomposed">
 
 		<style>
-		iframe {
+		.nht-issue__frame {
 			width: 100%;
 			height: 100vh;
 			border: none;
+			overflow-y: scroll;
 		}
 		</style>
 

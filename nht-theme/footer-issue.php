@@ -5,6 +5,13 @@
         <!-- Running wp_footer func to pull in custom javascript to load in footer -->
 		<?php wp_footer(); ?>
 
+		<script>
+		// A $( document ).ready() block.
+		$( document ).ready(function() {
+			console.log( "issue ready!" );
+		});
+		</script>
+
 		<!-- analytics -->
 		<script>
 		(function(f,i,r,e,s,h,l){i['GoogleAnalyticsObject']=s;f[s]=f[s]||function(){

@@ -3,10 +3,10 @@
 <?php if (have_posts()): while (have_posts()) : the_post(); ?>
 
     <?php $issue_url = get_field('issue_url'); ?>
+	
+	<div class="nht-issue__frame" issue-url="<?php echo $issue_url ?>"></div>
 
-	<iframe src="<?php echo $issue_url ?>"></iframe>
-
-		<?php endwhile; ?>
+	<?php endwhile; ?>
 
 	<?php else: ?>
 
