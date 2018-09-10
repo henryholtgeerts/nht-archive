@@ -41,7 +41,8 @@
 				$('.nht-live-search__input').val(query.term);
 				loadResults(query);		
 			} else if ($('.nht-issue__frame').length) {
-				console.log('issue loaded!!');
+				var url = $('.nht-issue__frame').attr('issue-url');
+				console.log('issue loaded!!', url);
 			}
 		});
 		
