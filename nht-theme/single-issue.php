@@ -6,7 +6,9 @@
 
 	<?php echo $issue_url ?>
 
-	<iframe src="https://stackoverflow.com/questions/7947144/iframes-not-working"></iframe>
+	<iframe src="https://www.w3schools.com">
+		<p>Your browser does not support iframes.</p>
+	</iframe>
 
 		<?php endwhile; ?>
 
