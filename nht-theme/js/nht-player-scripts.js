@@ -9,6 +9,12 @@
         var timeDrag = false;
         var searchTerm;
 
+        function receiveMessage(event) {
+			if (event.data.length > 1) {
+				console.log('post message received!!', event.data);
+			}
+		}
+
         $( document ).on( "click", "[nht-player*=true]", async function( event ) {
             audio.pause();
 
