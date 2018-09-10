@@ -106,6 +106,7 @@
 
         async function receiveMessage(event) {
 			if (event.data.length > 1) {
+                console.log('message received!!', event.data);
                 audio.pause();
                 await loadAudio(event.data);
                 audio.play();
