@@ -471,7 +471,7 @@ input:focus {
 	grid-area: branding;
 	width: 106px;
 	height: 106px;
-	background: var(--nht-color-light);
+	background: var(--nht-color-ultra-light);
 	padding: 12px;
 }
 
