@@ -111,7 +111,7 @@
 						<div class="nht-navbar__underlay"></div>
 						<a href="<?php echo site_url(); ?>" class="nht-contents-link">
 							<div class="nht-navbar__branding">
-								<img src="<?php echo get_template_directory_uri(); ?>/img/white_logo.png" alt="logo" class="logo"/>
+								<img src="<?php echo get_template_directory_uri(); ?>/img/black_logo.png" alt="logo" class="logo"/>
 							</div>
 						</a>
 						<div class="nht-navbar__primary-menu">
