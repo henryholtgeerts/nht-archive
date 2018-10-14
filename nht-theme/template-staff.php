@@ -12,9 +12,7 @@ get_header(); ?>
 			</h3>
 		</div>
 
-		<div class="nht-row">
-			<?php get_template_part('loop-staffsection'); ?>
-		</div>
+		<?php get_template_part('loop-staffsection'); ?>
 	</div>
 </div>
 
