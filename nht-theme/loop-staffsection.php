@@ -9,11 +9,9 @@ if( have_rows('staff_sections') ):
         <?php
 		
         // vars
-        $section = get_field('staff_section');	
+        $section = the_sub_field('staff_section');	
         
         if( $section ): ?>
-
-        <h1>Staff Sections</h1>
 
 		<div class="nht-row">
         	<h3 class='nht-heading__text'>
