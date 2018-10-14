@@ -6,6 +6,8 @@ if( have_rows('staff_sections') ):
  	// loop through the rows of data
     while ( have_rows('staff_sections') ) : the_row(); ?>
 
+    <h1>Staff Sections</h1>
+
         <?php
 		
         // vars
