@@ -13,7 +13,7 @@ get_header(); ?>
 		</div>
 
 		<div class="nht-row">
-			<?php get_template_part('loop-staff'); ?>
+			<?php get_template_part('loop-staffsection'); ?>
 		</div>
 	</div>
 </div>

@@ -58,7 +58,8 @@
 }
 
 .nht-player[active="true"] {
-    transform: translate3d(0, 0, 0);
+	transform: translate3d(0, 0, 0);
+	opacity: 1;
 	transition: transform 0.2s ease;
 	-webkit-transition: transform 0.2s ease;
 	-moz-transition: transform 0.2s ease;
@@ -68,8 +69,9 @@
 }
 
 .nht-player[active="false"] {
-    transform: translate3d(0, 90px, 0);
-	transition: atransform 0.2s ease;
+	transform: translate3d(0, 90px, 0);
+	opacity: 0;
+	transition: transform 0.2s ease;
 	-webkit-transition: transform 0.2s ease;
 	-moz-transition: transform 0.2s ease;
 	-o-transition: transform 0.2s ease;
