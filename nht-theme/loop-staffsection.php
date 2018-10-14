@@ -23,9 +23,6 @@ if( have_rows('staff_sections') ):
             </div>
 
             <?php
-
-            $post_objects = $section['section_staff'];
-
             if( $post_objects ): ?>
                     <?php foreach( $post_objects as $post): // variable must be called $post (IMPORTANT) ?>
                         <?php setup_postdata($post); ?>
