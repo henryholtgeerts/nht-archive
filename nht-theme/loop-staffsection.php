@@ -11,7 +11,7 @@ if( have_rows('staff_sections') ):
         // vars
         $section = get_field('staff_section');	
         
-        if( $hero ): ?>
+        if( $section ): ?>
 
 		<div class="nht-row">
         	<h3 class='nht-heading__text'>
