@@ -15,10 +15,8 @@ if( have_rows('staff_sections') ):
             $post_objects = get_sub_field('section_staff');
             
             ?>
-            <div class="nht-row">
-                <div class='nht-live-search__title'>
-                    <?php echo $section_title; ?>
-                </div>
+            <div class='nht-staff__title'>
+                <?php echo $section_title; ?>
             </div>
             <?php
             if( $post_objects ): ?>

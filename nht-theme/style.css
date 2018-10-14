@@ -933,6 +933,17 @@ input:focus {
     PAGES
 \*------------------------------------*/
 
+.nht-staff__title {
+	font-size: 2em;
+	line-height: 1.8;
+	margin-bottom: 2em;
+	margin-top: 2em;
+	border-bottom-width: 1px;
+	border-bottom-color: var(--nht-color-mid);
+	border-bottom-style: solid;
+	width: auto;
+}
+
 
 
 /*------------------------------------*\
