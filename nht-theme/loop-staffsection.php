@@ -16,10 +16,8 @@ if( have_rows('staff_sections') ):
             
             ?>
 
-            <div class="nht-row">
-                <h3 class='nht-heading__text'>
-                    <?php echo $section_title; ?>
-                </h3>
+            <div class='nht-live-search__title'>
+                <?php echo $section_title; ?>
             </div>
             <?php
             if( $post_objects ): ?>
