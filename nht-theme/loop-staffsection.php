@@ -64,7 +64,6 @@ if( have_rows('staff_sections') ):
             <?php endif; ?>
 
             <?php endwhile; ?>
-        <?php endif; ?>
 
         <?php endif; ?>
 
