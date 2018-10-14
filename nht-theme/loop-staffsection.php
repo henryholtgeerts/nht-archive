@@ -6,14 +6,14 @@ if( have_rows('staff_sections') ):
  	// loop through the rows of data
     while ( have_rows('staff_sections') ) : the_row(); ?>
 
-    <h1>Staff Sections</h1>
-
         <?php
 		
         // vars
         $section = get_field('staff_section');	
         
         if( $section ): ?>
+
+        <h1>Staff Sections</h1>
 
 		<div class="nht-row">
         	<h3 class='nht-heading__text'>
