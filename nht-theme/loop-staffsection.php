@@ -21,9 +21,9 @@ if( have_rows('staff_sections') ):
                     <?php echo $section_title; ?>
                 </h3>
             </div>
-
             <?php
             if( $post_objects ): ?>
+            <div class="nht-row">
                     <?php foreach( $post_objects as $post): // variable must be called $post (IMPORTANT) ?>
                         <?php setup_postdata($post); ?>
                     <div class="nht-card nht-card--story">
@@ -58,6 +58,7 @@ if( have_rows('staff_sections') ):
 
                 <?php endforeach; ?>
                 <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+            </div>
             <?php endif; ?>
 
             <?php endwhile; ?>
