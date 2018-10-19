@@ -26,25 +26,44 @@
         });
         </script>
 		<!-- 
-		 ___________________________________________
-		|  _______________________________________  |
-		| / .-----------------------------------. \ |
-		| | | /\ :                        90 min| | |
-		| | |/--\:....................... NR [ ]| | |
-		| | `-----------------------------------' | |
-		| |      //-\\   |         |   //-\\      | |
-		| |     ||( )||  |_________|  ||( )||     | |
-		| |      \\-//   :....:....:   \\-//      | |
-		| |       _ _ ._  _ _ .__|_ _.._  _       | |
-		| |      (_(_)| |(_(/_|  |_(_||_)(/_      | |
-		| |               low noise   |           | |
-		| `______ ____________________ ____ ______' |
-		|        /    []             []    \        |
-		|       /  ()                   ()  \       |
-		!______/_____________________________\______!
+
+		    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+		o  %xxxx333333oo33oo3o33333333333oo  |
+		u  M             iPod      |||||  M  |
+		u  M                              N  |
+		u  M  Now Here This            >  H  |
+		u  M                              H  |
+		u  M  Music                    >  H  |
+		u  M                              H  |
+		u  M  Podcasts                 >  H  |
+		u  M                              H  |
+		u  M  Shuffle Songs            >  H  |
+		u  M                              H  |
+		X  M  Radio Is Dead            >  H  |
+		X  Nyyyyyyyyyyyyyyyy88888888888888M  |
+		X                                    |
+		X                                    |
+		X                ^^^^                |
+		X            ,///,//////,            |
+		X         ,///(<<<<<<<<</(/^         |
+		X        /<<(<<<<<<<<<<<<(<</        |
+		X       (&&&&&&&&////<&&&&&&&)       |
+		X      /&&&&&&&/      /&&&&&&&/      |
+		X      /%%%%%%/        /%%%%%%/      |
+		X      /%%%%%%%/       /%%%%%%/      |
+		X      (o3o3o3o3/    /o3o3o3o3)      |
+		8       <33333333333333333333>       |
+		8         /%333xxxxxxxxx333%/        |
+		8          /&3xxx%%o%xx3o&/,         |
+		y             /(<&&&<<//,            |
+		y                                    |
+		8                                    |
+		 u                                  ^
+		  ,,////////////////////////////,,^^
+
 
 		Now Here This Radio Archive
-		ASCII by Simon Williams
+		ASCII by Henry Holtgeerts
 
 		-->
 
@@ -156,7 +175,7 @@
 						<div class="nht-navbar__search">
 							<?php get_template_part('searchform'); ?>
 						</div>
-						<div class="nht-navbar__divider">
+						<!-- <div class="nht-navbar__divider">
 							<div class="nht-navbar__divider-bar"></div>
 						</div>
 						<div class="nht-navbar__follow-links">
@@ -166,7 +185,7 @@
 							<a class="nht-navbar__follow-link" href="<?php 	echo get_theme_mod( 'spotify_link' ); ?>">
 								<i class='fab fa-spotify'></i>
 							</a>
-						</div>
+						</div> -->
 
 						<button class="nht-navbar__toggle-menu" type="button" data-toggle="collapse" data-target="#navbar">
 							<i class='fas fa-bars'></i>
