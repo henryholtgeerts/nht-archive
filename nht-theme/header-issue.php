@@ -12,7 +12,7 @@
 		<style>
 			#nht-issue__frame {
 				width: 100%;
-				height: 100vh;
+				height: 100vh!important;
 				border: none;
 				overflow-y: scroll;
 			}
