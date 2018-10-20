@@ -153,7 +153,11 @@
             }
         });
     
-		
+		function decodeHtml(html) {
+            var txt = document.createElement("textarea");
+            txt.innerHTML = html;
+            return txt.value;
+        }
 		
         // DOM ready, take it away
         
@@ -165,7 +169,8 @@
                     $('.nht-player__title--producer').html('');
                     console.log(data);
                     audio.src = data.acf.story_audio;
-                    $('.nht-player__title--main').text(data.title.rendered);
+                    var title = decodeHTML(data.title.rendered);
+                    $('.nht-player__title--main').text(title);
                     $('.nht-player__title--main').attr('href', data.link);
                     if (data._embedded != undefined && data._embedded['wp:featuredmedia'] != undefined) {
                         $('.nht-player__artwork img').attr('src',data._embedded['wp:featuredmedia']['0'].source_url);

@@ -179,10 +179,10 @@
 							<div class="nht-navbar__divider-bar"></div>
 						</div>
 						<div class="nht-navbar__follow-links">
-							<a class="nht-navbar__follow-link" href="<?php 	echo get_theme_mod( 'itunes_link' ); ?>">
+							<a class="nht-navbar__follow-link" href=">">
 								<i class='fab fa-apple'></i>
 							</a>
-							<a class="nht-navbar__follow-link" href="<?php 	echo get_theme_mod( 'spotify_link' ); ?>">
+							<a class="nht-navbar__follow-link" href="">
 								<i class='fab fa-spotify'></i>
 							</a>
 						</div> -->
