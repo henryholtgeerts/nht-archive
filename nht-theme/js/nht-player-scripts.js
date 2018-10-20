@@ -169,7 +169,7 @@
                     $('.nht-player__title--producer').html('');
                     console.log(data);
                     audio.src = data.acf.story_audio;
-                    var title = decodeHTML(data.title.rendered);
+                    var title = decodeHtml(data.title.rendered);
                     $('.nht-player__title--main').text(title);
                     $('.nht-player__title--main').attr('href', data.link);
                     if (data._embedded != undefined && data._embedded['wp:featuredmedia'] != undefined) {
