@@ -2,6 +2,8 @@
 <html <?php language_attributes(); ?> class="no-js">
 	<head>
 		<meta charset="<?php bloginfo('charset'); ?>">
+		<?php         $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); ?>
+		<meta property="og:image" content="<?php echo ''.esc_url($featured_img_url).''; ?>"/>
 
 		<!-- Probide basic meta info -->
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
