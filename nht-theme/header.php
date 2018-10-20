@@ -86,7 +86,7 @@
 				</div>
 				<div class="nht-player__title">
 					<a class="nht-player__title--main">
-                        This is a story!
+                        Loading...
 					</a>
                     <div class="nht-player__title--producer"></div>
 				</div>
@@ -97,7 +97,7 @@
 					<div class="nht-player__duration"></div>
 				</div>
 				<div class="nht-player__time-code">
-					4:56 / 7:43
+					0:00 / 0:00
 				</div>
 				<div class="nht-player__volume-control">
 					<button class="nht-player__volume-button">

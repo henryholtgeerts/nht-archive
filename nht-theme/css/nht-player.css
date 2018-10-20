@@ -132,7 +132,7 @@ button.nht-player__seek-forward {
 .nht-player__artwork img {
 	height: 100%;
 	width: auto;
-	background: rgb(238, 96, 96);
+	background: rgb(0, 0, 0);
 }
 
 .nht-player__title {
