@@ -5,10 +5,6 @@
 
 		<!-- Probide basic meta info -->
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
-		<meta property="og:title" content="<?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?>" />
-		<meta property="og:type" content="article" />
-		<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); ?>
-		<meta property="og:image" content="<?php echo ''.esc_url($featured_img_url).''; ?>" />
 		<meta name="description" content="<?php bloginfo('description'); ?>">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
