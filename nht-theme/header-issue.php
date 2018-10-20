@@ -5,9 +5,8 @@
 
 		<!-- Probide basic meta info -->
 		<title><?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?></title>
-		<meta property="og:title" content="<?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?>" />
+		<meta property="og:title" content="<?php wp_title(''); ?><?php if(wp_title('', false)) { echo ' :'; } ?> <?php bloginfo('name'); ?>" />
 		<meta property="og:type" content="article" />
-		<meta property="og:image" content="http://ia.media-imdb.com/images/rock.jpg" />
 		<?php $featured_img_url = get_the_post_thumbnail_url(get_the_ID(),'full'); ?>
 		<meta property="og:image" content="<?php echo ''.esc_url($featured_img_url).''; ?>" />
 		<meta name="description" content="<?php bloginfo('description'); ?>">
