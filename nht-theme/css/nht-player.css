@@ -223,6 +223,7 @@ a.nht-player__title--main:hover {
 	color: var(--nht-color-light);
 	display: inline-flex;
 	align-items: center;
+	min-width: 120px;
 	padding-bottom: 20px;
 	padding-left: 8px;
 }
