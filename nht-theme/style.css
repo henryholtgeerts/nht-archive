@@ -202,6 +202,10 @@ input:focus {
 	background: linear-gradient(0deg, rgba(0,0,0,0.4) 0%, rgba(0,0,0,0) 50%);
 }
 
+.nht-card--issue .nht-card__overlay {
+	display: none;
+}
+
 .nht-card__runtime {
 	color: #fff;
 	font-size: 1em;
