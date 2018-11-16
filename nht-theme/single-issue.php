@@ -4,7 +4,7 @@
 
     <?php $issue_url = get_field('issue_url'); ?>
 
-	<iframe id="nht-issue__frame" src="<?php echo $issue_url ?>"></iframe>
+	<iframe id="nht-issue__frame" src="<?php echo $issue_url ?>" scrolling="no" frameborder="0"></iframe>
 	
 	<?php endwhile; ?>
 
