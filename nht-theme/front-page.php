@@ -30,7 +30,7 @@ $hero = get_field('billboard');	?>
 					<?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
 				</div>
 			</div>
-			<div class="nht-billboard__bg" style="background: <?php echo $hero['background_color']; ?>"></div>
+			<div class="nht-billboard__bg" style="background-image: url(<?php echo $hero['background_image']; ?>); background-size: cover;"></div>
 		</div>
 
 		<div class="nht-container">
