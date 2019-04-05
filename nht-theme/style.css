@@ -1231,6 +1231,14 @@ h4 {
 		justify-content: center;
 	}
 
+	.nht-billboard__cta-link {
+		color: rgb(44, 44, 44)!important;
+	}
+	
+	.nht-billboard__cta-link:hover {
+		color: rgb(44, 44, 44)!important;
+	}
+
 	.nht-live-search__filters {
 		grid-template-columns: 1fr;
 	}
