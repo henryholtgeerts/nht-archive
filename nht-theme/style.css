@@ -1231,14 +1231,6 @@ h4 {
 		justify-content: center;
 	}
 
-	.nht-billboard__cta-link {
-		color: #fff!important;
-	}
-	
-	.nht-billboard__cta-link:hover {
-		color: #fff!important;
-	}
-
 	.nht-live-search__filters {
 		grid-template-columns: 1fr;
 	}
