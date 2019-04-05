@@ -1232,11 +1232,11 @@ h4 {
 	}
 
 	.nht-billboard__cta-link {
-		color: rgb(44, 44, 44)!important;
+		color: #fff!important;
 	}
 	
 	.nht-billboard__cta-link:hover {
-		color: rgb(44, 44, 44)!important;
+		color: #fff!important;
 	}
 
 	.nht-live-search__filters {
