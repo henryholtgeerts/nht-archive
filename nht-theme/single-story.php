@@ -35,7 +35,6 @@
 							<?php the_content(); // Dynamic Content ?>
 						</div>
 						<div class="nht-story__meta">
-							<p><?php _e( 'Categorised in: ', 'html5blank' ); the_category(', '); // Separated by commas ?></p>
 							<?php edit_post_link(); // Always handy to have Edit Post Links available ?>
 						</div>
 					</div>
